@@ -1,0 +1,20 @@
+.login-block{
+	display: flex;
+    align-items: center;
+}
+.login-block .log-inner{
+	width: 400px;
+	padding: 10px 20px 50px 20px;
+	background: linear-gradient(90deg, black, red, black);
+	border: 15px solid lightblue;
+	border-radius: 10px;
+}
+.login-block form{
+	display:grid;
+	gap:10px;
+}
+.login-block form input:nth-child(1),.login-block form input:nth-child(2){
+	width:100%;
+	box-sizing: border-box;
+	padding:10px;
+}
